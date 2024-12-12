@@ -58,7 +58,7 @@ if __name__ == "__main__":
     b1 = 25
     b2 = 10000
     file = os.path.dirname(os.path.realpath(__file__))
-    file += "\input11"
+    file += "\input\input11"
     with open(file) as inputfile:
         raw = [line.rstrip() for line in inputfile]
 
